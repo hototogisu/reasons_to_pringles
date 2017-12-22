@@ -14,6 +14,8 @@ const Alexa = require('alexa-sdk');
 
 const APP_ID = undefined;  // TODO replace with your app ID (OPTIONAL).
 
+/* this is where the facts live do not use any punctuation or you'll ruin my very bad code*/
+
 const languageStrings = {
     'en': {
         translation: {
@@ -24,9 +26,11 @@ const languageStrings = {
                 'you have won a one-way ticket to flavourtown with your name on it.',
                 'its International Eat Something Delicious day. We made that up, but it should be a holiday.',
                 'death will come for us all and we must seize happiness and joy when and where we can.',
-                'you may have a life-threatening deliciousness deficiency that can only be treated with crunchy, mouth-watering Pringles.',
-                'you have a taste for the spicy things in life and love to get heated with Hot & Spicy Pringles.',
+                'you may have a life-threatening deliciousness deficiency that can only be treated with crunchy mouth-watering Pringles.',
+                'you have a taste for the spicy things in life and love to get heated with Hot and Spicy Pringles.',
                 'youre one cheesy nacho lover and a can of Nacho Cheese Pringles would be heaven right now.',
+                'we think youre a bit of a smokeshow so you should nosh on some Paprika Pringles.',
+                'theres only one person like you in the whole entire world, youre a real original, so you should nibble on Original Pringles.',
             ],
             SKILL_NAME: 'Reasons to Eat Pringles',
             GET_FACT_MESSAGE: "Because: ",
